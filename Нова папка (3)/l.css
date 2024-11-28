@@ -1,0 +1,97 @@
+h2{
+    font-family: 'Roboto', sans-serif;
+ }
+ 
+ .dropbth{
+     background-color: blanchedalmond;
+     color: black;
+     padding: 16px;
+     font-size: 16px;
+     border: none;
+ }
+ 
+ .dropdown{
+     position: relative;
+     display: inline-block;
+ }
+ 
+ .dropdown-content{
+     display: none;
+     position: absolute;
+     background-color: bisque;
+     min-width: 160px;
+     box-shadow: 0px 8px 16px 0px black;
+     z-index: 1;
+ }
+ 
+ .dropdown-content a{
+   color: black;
+   padding: 12px 16px;
+   text-decoration: none;
+   display: block;
+ }
+ 
+ .dropdown-content a:hover {background-color: aqua;}
+ .dropdown:hover .dropdown-content{display: block;}
+ .dropdown:hover .dropbth{ background-color: aquamarine;}
+ 
+ footer nav ul{
+     list-style: none;
+     display: flex;
+     align-items: center;
+     padding: 0;
+     margin: 0;
+ }
+ 
+ footer nav li {
+ margin: 0;
+ padding: 0;
+ position: relative;
+ }
+ 
+ footer nav a {
+ display: block;
+ padding: 10px 15px;
+ color: whitesmoke;
+ text-decoration: none;
+ }
+ 
+ footer nav ul ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: violet;
+    display: none;
+    z-index: 100;
+ }
+ 
+ footer nav ul ul li {
+     display: block;
+     width: 100%;
+ }
+ 
+ footer nav ul li:hover > ul {
+     display: block;
+ }
+ 
+ footer nav ul li:hover > a {
+     background-color: burlywood;
+ }
+ 
+ .content{
+    background-color: whitesmoke;
+    width: auto;
+    height: 2500px;
+}
+
+ol{
+    padding: 15px;
+    margin: 3px;
+    background-color: blue;
+}
+
+ol li {
+    padding: 5px;
+    margin: 5px 15px;
+    background-color: whitesmoke;
+}
